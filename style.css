@@ -4,7 +4,17 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.linkz {
+    font-size: 12px;
+    color: rgba(255,255,255,0.8) !important;
+    fill:rgba(255,255,255,0.8) !important;
+}
+.linkz:hover{
+    color: #fff !important;
+}
+.linkz:hover svg path{
+    fill: #fff !important;
+}
 a {
     text-decoration: none;
     display: block;
@@ -17,10 +27,9 @@ img {
 }
 /* header css */
 .header {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #161617CC ;
     justify-content: center;
     display: flex;
-    color: #414141;
     position: sticky;
     top: 0px;
     width: 100%;
@@ -35,20 +44,36 @@ img {
 }
 .header .subnav1 {
     display: none;
-    background-color: white;
+    background-color: #161617CC;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100vw;
     z-index: 1;
-    animation: growDown 400ms ease-in-out forwards;
+animation: growDown 400ms ease-in-out forwards;
     transform-origin: top center;
 }
-.header:hover {
-    background-color: #fff;
-    transition: all 0.4s ease-in-out;
+.h2chung {
+    color: rgba(255,255,255,0.8) !important;
+    font-size: 12px;
+    padding-bottom: 10px;
 }
+.h1chung a {
+    color:#fff !important; 
+    font-size: 24px;
+}
+.h5chung {
+    color:#fff !important;
+    font-size: 12px;
 
+}
 .chung:hover .subnav1 {
     display: block;
+}
+.subnav11 {
+    display:flex;
+}
+.area {
+padding: 0 16px;
+flex: 1
 }
