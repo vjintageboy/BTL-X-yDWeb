@@ -13,6 +13,7 @@ body {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.8) !important;
     fill: rgba(255, 255, 255, 0.8) !important;
+    padding-top:13px;
 }
 
 .linkz:hover {
@@ -38,7 +39,7 @@ img {
 
 /* header css */
 .header {
-    background-color: #161617CC;
+    background-color: rgba(18, 18, 19, 1);
     color: #414141 !important;
     justify-content: center;
     display: flex;
@@ -144,9 +145,10 @@ color:#2997ff;
     width:auto;
     height: 692px;
     padding-top: 61px;
+    border-bottom: 12px solid #ffff;
 }
-.ipad h1, h3, p {
-    color:#fff
+.layer1 h2, h3, p {
+    color:#fff;
 }
 .border-bottom {
     font-size:48px;
@@ -159,10 +161,12 @@ color:#2997ff;
     width:auto;
     height: 692px;
     padding-top: 61px;
+    background-color: #fff;
+    border-bottom: 12px solid #ffff;
 }
 .ipad1 h3 {
-    color: black;
     padding-top:20px;
+    color:#1d1d1f;
 }
 .image-span {
     display: inline-block;
@@ -171,4 +175,34 @@ color:#2997ff;
     background-image: url('/img/ipad-2_1.png');
     background-size: cover; 
     background-position: center; 
+}
+.iphone {
+    background-image: url(/img/iphone15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 692px;
+    padding-top: 61px;
+    border-bottom: 12px solid #ffff;
+}
+.layer-font-h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.iphone h3 {
+    color: white;
+    padding-top:10px;
+    padding-bottom:15px;   
+}
+.seach-bag {
+     color: rgba(255, 255, 255, 0.8) !important;
+     padding-top:8px;
+}
+.seach-bag:hover {
+    color:#fff !important;
+}
+
+.seach-bag:active {
+
 }
