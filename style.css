@@ -151,3 +151,24 @@ color:#2997ff;
 .border-bottom {
     font-size:48px;
 }
+.ipad1 {
+    background-image: url(/img/ipad-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 692px;
+    padding-top: 61px;
+}
+.ipad1 h3 {
+    color: black;
+    padding-top:20px;
+}
+.image-span {
+    display: inline-block;
+    width: 170px; 
+    height: 39px;
+    background-image: url('/img/ipad-2_1.png');
+    background-size: cover; 
+    background-position: center; 
+}
