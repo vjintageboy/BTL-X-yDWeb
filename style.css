@@ -2,32 +2,44 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, sf;
 }
+
+body {
+    background-color: black;
+}
+
 .linkz {
     font-size: 12px;
-    color: rgba(255,255,255,0.8) !important;
-    fill:rgba(255,255,255,0.8) !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    fill: rgba(255, 255, 255, 0.8) !important;
 }
-.linkz:hover{
+
+.linkz:hover {
     color: #fff !important;
 }
-.linkz:hover svg path{
+
+.linkz:hover svg path {
     fill: #fff !important;
 }
+
 a {
     text-decoration: none;
     display: block;
 }
+
 ul {
     list-style: none;
 }
+
 img {
     width: 100%;
 }
+
 /* header css */
 .header {
-    background-color: #161617CC ;
+    background-color: #161617CC;
+    color: #414141 !important;
     justify-content: center;
     display: flex;
     position: sticky;
@@ -35,45 +47,98 @@ img {
     width: 100%;
     z-index: 10;
 }
+
 .chung {
     padding: 10px 20px;
     opacity: 1.5;
 }
+
 .chung a {
     color: #414141;
 }
+
 .header .subnav1 {
     display: none;
-    background-color: #161617CC;
+    padding-bottom: 40px;
+    background-color: rgba(18, 18, 19, 1);
     position: absolute;
     top: 100%;
     left: 0;
     width: 100vw;
     z-index: 1;
-animation: growDown 400ms ease-in-out forwards;
+    animation: growDown 3s ease-in-out forwards;
     transform-origin: top center;
 }
+
 .h2chung {
-    color: rgba(255,255,255,0.8) !important;
+    color: rgba(255, 255, 255, 0.8) !important;
     font-size: 12px;
     padding-bottom: 10px;
 }
+.hang1-cuoi {
+    font-size: 12px; 
+    color:#fff !important;
+}
 .h1chung a {
-    color:#fff !important; 
+    color: #fff !important;
     font-size: 24px;
 }
+.hang1-padding {
+    padding-top: 10px;
+}
+
 .h5chung {
-    color:#fff !important;
+    color: #fff !important;
     font-size: 12px;
 
 }
-.chung:hover .subnav1 {
+
+.chung:hover .subnav1{
     display: block;
 }
+
 .subnav11 {
-    display:flex;
+    display: flex;
 }
+
 .area {
-padding: 0 16px;
-flex: 1
+    padding: 0 16px;
+}
+
+.hang1 {
+    flex: 3;
+}
+
+.hang2 {
+    flex: 2;
+}
+
+.hang3 {
+    flex: 1;
+}
+
+.under-header {
+    width: auto;
+    height: 44px !important;
+    background-color: #1d1d1f;
+}
+
+.under-header p {
+    padding-top: 10px;
+    color: #fff;
+    font-size: 14px;
+
+}
+.under-header a {
+color:#2997ff;
+
+}
+.chung:hover .under-header {
+    display: none;
+}
+.ipad {
+    background-image: url(/img/IPAD-1.jpeg);
+    background-repeat: no-repeat;
+    width:auto;
+    height:692px;
 }
