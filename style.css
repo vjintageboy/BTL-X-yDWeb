@@ -137,8 +137,17 @@ color:#2997ff;
     display: none;
 }
 .ipad {
-    background-image: url(/img/IPAD-1.jpeg);
+    background-image: url(/img/ipad-1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width:auto;
-    height:692px;
+    height: 692px;
+    padding-top: 61px;
+}
+.ipad h1, h3, p {
+    color:#fff
+}
+.border-bottom {
+    font-size:48px;
 }
