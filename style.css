@@ -203,8 +203,123 @@ color:#2997ff;
 .seach-bag:hover {
     color:#fff !important;
 }
-
-.seach-bag:active {
-    
+.layerbao {
+    background-color: #fff;
 }
+.layer1-1 {
+    background-image: url(/img/iphone15xanh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 692px;
+    padding-top: 61px;
+    border-bottom: 12px solid #ffff;
+}
+.layer1-2 {
+    background-image: url(/img/applewatch1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 692px;
+    padding-top: 61px;
+    border-bottom: 12px solid #ffff;
+}
+.layer1-3 {
+    background-image: url(/img/macos1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 692px;
+    padding-top: 61px;
+    border-bottom: 12px solid #ffff;
+}
+.layer2-1 {
+    background-image: url(/img/macos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 692px;
+    padding-top: 61px;
+    border-bottom: 12px solid #ffff;
+}
+.layer2-2 {
+    background-image: url(/img/applewatch2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 692px;
+    padding-top: 61px;
+    border-bottom: 12px solid #ffff;
+}
+.layer2-3 {
+    background-image: url(/img/ipod.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height: 692px;
+    padding-top: 61px;
+    border-bottom: 12px solid #ffff;
+}
+.headline {
+    color: rgb(245,245,247);
+    font-size: 40px;
+    font-weight: 600; 
+}
+.headline-trang {
+    color: rgb(29,29,31);
+    font-size: 40px;
+    font-weight: 600;
+}
+.subline {
+    color: rgb(245,245,247);
+    font-size: 21px;
+    font-weight: 400;  
+}
+.subline-trang {
+    color: rgb(29,29,31);
+    font-size: 21px;
+    font-weight: 400;
+}
+.but {
+background-color: #000;
+}
+.but-trang {
+    background-color: #fbfbfd;
+}
+.but-trang1 {
+    background-color: #f5f5f7;
+}
+.but:hover {
+    color: rgba(245,245,247,0.9) !important;}
+.but-trang:hover {
+    color: rgba(245,245,247,0.9) !important;
+}.but-trang1:hover {
+    color: rgba(245,245,247,0.9) !important;
+
+}
+.image-span1 {
+    display: inline-block;
+    width: 138px; 
+    height: 53px;
+    background-image: url('/img/logowatch1.png');
+    background-size: cover; 
+    background-position: center; 
+    margin-bottom: 20px;
+}
+.image-span2 {
+    display: inline-block;
+    width: 138px; 
+    height: 53px;
+    background-image: url('/img/logowatch2.png');
+    background-size: cover; 
+    background-position: center; 
+    margin-bottom: 20px;
+}
+
 
