@@ -6,22 +6,22 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .linkz {
     font-size: 12px;
-    color: rgba(255, 255, 255, 0.8) !important;
-    fill: rgba(255, 255, 255, 0.8) !important;
+    color: rgba(9, 9, 9, 0.8) !important;
+    fill: rgba(7, 7, 7, 0.8) !important;
     padding-top:13px;
 }
 
 .linkz:hover {
-    color: #fff !important;
+    color: #000000 !important;
 }
 
 .linkz:hover svg path {
-    fill: #fff !important;
+    fill: #000000 !important;
 }
 
 a {
@@ -39,8 +39,8 @@ img {
 
 /* header css */
 .header {
-    background-color: rgba(18, 18, 19, 1);
-    color: #414141 !important;
+    background-color: rgb(255, 255, 255);
+    color: #000000 !important;
     justify-content: center;
     display: flex;
     position: sticky;
@@ -56,13 +56,13 @@ img {
 }
 
 .chung a {
-    color: #414141;
+    color: #040404;
 }
 
 .header .subnav1 {
     display: none;
     padding-bottom: 40px;
-    background-color: rgba(18, 18, 19, 1);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top: 100%;
     left: 0;
@@ -73,16 +73,16 @@ img {
 }
 
 .h2chung {
-    color: rgba(255, 255, 255, 0.8) !important;
+    color: rgba(91, 90, 90, 0.8) !important;
     font-size: 12px;
     padding-bottom: 10px;
 }
 .hang1-cuoi {
     font-size: 12px; 
-    color:#fff !important;
+    color:#000000 !important;
 }
 .h1chung a {
-    color: #fff !important;
+    color: #000000 !important;
     font-size: 24px;
 }
 .hang1-padding {
@@ -90,7 +90,7 @@ img {
 }
 
 .h5chung {
-    color: #fff !important;
+    color: #000000 !important;
     font-size: 12px;
 
 }
@@ -111,39 +111,40 @@ img {
 .under-header {
     width: auto;
     height: 44px !important;
-    background-color: #1d1d1f;
+    background-color: #e4e4e4;
 }
 
 .under-header p {
     padding-top: 10px;
-    color: #fff;
-    font-size: 14px;
-
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
 }
 .under-header a {
-color:#2997ff;
-
+color:#2e8be2;
 }
 .chung:hover .under-header {
     display: none;
 }
 
 .seach-bag {
-     color: rgba(255, 255, 255, 0.8) !important;
+     color: rgba(0, 0, 0, 0.8) !important;
      padding-top:8px;
 }
 .seach-bag:hover {
-    color:#fff !important;
+    color:#000000 !important;
 }
 
-/*mac css*/
-
+/*item mac*/
 
 .chapter-wrapper {
     position: relative;
     height: 100%;
     z-index: 1;
     padding: 24px 0;
+    justify-content: center;
+    opacity: 1.5;
+    display: flex;
 }
 
 .chapter-items {
@@ -178,6 +179,7 @@ color:#2997ff;
 
 .chapter-label,
 .chapter-new {
+    color:#000000;
     font-size: 12px;
     line-height: 1.3333;
     font-weight: 400;
@@ -190,5 +192,31 @@ color:#2997ff;
 
 .chapter-new {
     color: red;
+}
+
+.text-banner {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 60px;
+    align-items: flex-end;
+    font-size: 26px;
+}
+
+.text-banner1 .text-bn1{
+    margin-left: 100px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.text-banner2{
+    margin-right: 100px;
+    font-weight: 600;
+}
+
+.vid-banner{
+    object-fit: cover;
+    position: relative;
+    padding-top: 80px;
+    padding-left: 100px;
 }
 
