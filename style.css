@@ -100,13 +100,14 @@ img {
 
 .subnav11 {
     display: flex;
+    justify-content: space-around;
 }
 
 .area {
     padding: 0 16px;
 }
 
-.hang1 {
+/* .hang1 {
     flex: 3;
 }
 
@@ -116,7 +117,7 @@ img {
 
 .hang3 {
     flex: 1;
-}
+} */
 
 .under-header {
     width: auto;
