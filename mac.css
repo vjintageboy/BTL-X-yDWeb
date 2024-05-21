@@ -217,6 +217,62 @@ color:#2e8be2;
     object-fit: cover;
     position: relative;
     padding-top: 80px;
-    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.vid-banner video{
+    border-radius: 80px;
+    max-width: 75%;
+    max-height: 50%;
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
+}
+.text-banner3{
+    padding-bottom: 50px;
+}
+.text-banner3 .text-bn4{
+    margin-left: 110px;
+    font-size: 50px;
+    font-weight: 600;
 }
 
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.card-custom{
+    flex: 0 0 370px;
+    margin: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.card-custom:hover {
+    transform: scale(1.02);
+}
+.card-custom .card-img-top{
+    border-radius: 30px;
+}
+.card-custom .card-text, .card-title{
+    font-weight: 600;
+}
+.card-icon-more{
+    position: absolute;
+    bottom: 20px;
+    left: 85%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #474747;
+}
+.card-icon-more .btnz{
+    color:rgb(255, 255, 255);
+}
