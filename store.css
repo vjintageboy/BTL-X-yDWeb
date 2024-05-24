@@ -1,7 +1,3 @@
-.container {
-    background-color: #ffffff;
-    overflow: hidden;
-}
 .canchinhthumuc {
     padding-left: 40px;
 }
@@ -39,7 +35,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, sf;
 }
 
 a {
@@ -124,6 +120,10 @@ img {
     transform: scale(1.02);
 }
 
+.card-custom1:hover {
+    transform: scale(1.02);
+}
+
 .mota-tensp {
     color: #ffffff;
     font-size: 12px;
@@ -144,6 +144,16 @@ img {
     font-size: 12px;
     font-weight: 1;
 }
+.mota-dacbiet2 {
+    color: #fff;
+    font-size: 27px;
+    padding: 15px 0;
+}
+.mota-tensp2 {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 1;
+}
 .mota-dacbiet1 {
     color: #000000;
     font-size: 28px;
@@ -154,7 +164,7 @@ img {
     font-size: 17px;
     font-weight: 1;
 }
-.card-customm{
+.card-custom1{
     flex: 0 0 450px;
     margin: 13px;
     border-radius: 30px;
