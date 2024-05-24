@@ -15,7 +15,8 @@
     font-size: 30px;
     width: 70%;
     font-weight: 700;
-    padding: 50px ;
+    padding: 50px;
+    
 }
 .chuyengia {
     display: flex;
@@ -115,31 +116,14 @@ img {
 
 .card-custom{
     flex: 0 0 400px;
-    margin: 10px;
+    margin: 13px;
     border-radius: 30px;
     overflow: hidden;
-    transition: transform 0.3s;
 }
 .card-custom:hover {
     transform: scale(1.02);
 }
-.card-custom {
-    border-radius: 30px;
-}
 
-.card-icon-more{
-    position: absolute;
-    bottom: 20px;
-    left: 85%;
-    width: 40px;
-    height: 40px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #474747;
-}
 .mota-tensp {
     color: #ffffff;
     font-size: 12px;
@@ -156,7 +140,7 @@ img {
     font-weight: 1;
 }
 .mota-tensp1 {
-    color: #000000;
+    color: #6e6e73;
     font-size: 12px;
     font-weight: 1;
 }
@@ -169,4 +153,10 @@ img {
     color: #000000;
     font-size: 17px;
     font-weight: 1;
+}
+.card-customm{
+    flex: 0 0 450px;
+    margin: 13px;
+    border-radius: 30px;
+    overflow: hidden;
 }
