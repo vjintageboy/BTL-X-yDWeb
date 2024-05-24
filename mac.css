@@ -223,7 +223,7 @@ color:#2e8be2;
     padding-bottom: 100px;
 }
 .vid-banner video{
-    border-radius: 80px;
+    border-radius: 30px;
     max-width: 75%;
     max-height: 50%;
     box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
@@ -242,6 +242,7 @@ color:#2e8be2;
     flex-wrap: nowrap;
     overflow-x: auto;
     padding: 10px;
+    padding-bottom: 150px;
 }
 
 .card-custom{
@@ -275,4 +276,31 @@ color:#2e8be2;
 }
 .card-icon-more .btnz{
     color:rgb(255, 255, 255);
+}
+.discovery{
+    background-color: rgb(243, 243, 243);
+}
+
+.text-banner5{
+    padding-top: 30px;
+}
+.text-banner5 a{
+    margin-right: 50px;
+    margin-top: 36px;
+}
+.text-banner5 .text-bn6{
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.text-bn{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.btn-dark{
+    border-radius: 40px;
+    margin-left: 50px;
 }
