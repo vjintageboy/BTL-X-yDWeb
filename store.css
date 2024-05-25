@@ -1,5 +1,5 @@
 .canchinhthumuc {
-    padding-left: 40px;
+    padding-left: 100px;
 }
 .gioithieucuahang {
     font-size: 40px;
@@ -8,19 +8,14 @@
     padding: 50px ;
 }
 .thumuc1 {
-    font-size: 30px;
-    width: 70%;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 650;
     padding: 50px;
     
 }
-.chuyengia {
-    display: flex;
-    gap: 10px;
-}
 .list-sp {
     display: flex;
-    padding-left: 85px;
+    padding-left: 140px;
 }
 .sp-item {
     width: 140px;
@@ -119,7 +114,12 @@ img {
 .card-custom:hover {
     transform: scale(1.02);
 }
-
+.card-custom1{
+    flex: 0 0 450px;
+    margin: 13px;
+    border-radius: 30px;
+    overflow: hidden;
+}
 .card-custom1:hover {
     transform: scale(1.02);
 }
@@ -163,10 +163,4 @@ img {
     color: #000000;
     font-size: 17px;
     font-weight: 1;
-}
-.card-custom1{
-    flex: 0 0 450px;
-    margin: 13px;
-    border-radius: 30px;
-    overflow: hidden;
 }
