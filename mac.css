@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);   
 }
 
 .linkz {
@@ -303,4 +303,31 @@ color:#2e8be2;
 .btn-dark{
     border-radius: 40px;
     margin-left: 50px;
+}
+.modal-content p{
+    padding: 15px 0px 0px 15px;
+    font-size: 30px;
+    padding: 30px;
+}
+.modal-header {
+    border-bottom: none; 
+    padding-left: 30px;
+}
+.modal-header .modal-title{
+    font-size: 60px;
+}
+.modal-content .modal-header .btn-close{
+    position: sticky;
+}
+.modal-dialog-custom{
+    max-width: 90%;
+    margin: 60px;
+    border-radius: 30px;
+}
+.modal-body-custom{
+    border-radius: 40px;
+    background-color: rgb(243, 243, 243);
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
 }
