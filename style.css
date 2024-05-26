@@ -1,29 +1,32 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-@font-face {
-    font-family: "SF Pro Text Regular";
-    src: url("https://db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.eot");
-    src: url("https://db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.svg#SF Pro Text Regular")format("svg");
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
+html {
+    font-size: 16px;
+}
 body {
     background-color: black;
-    font-family: "SF Pro Text Regular";
+    font-family: SF Pro Text;
 }
 
 .linkz {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.8) !important;
     fill: rgba(255, 255, 255, 0.8) !important;
-   
+    letter-spacing: -0.12px;
+    line-height: 12px;
+    text-align: left;
+    padding-top: 5px;
+    margin: 0 10px;
+
+}
+
+.linkz svg path {
+    padding-bottom: 100px;
 }
 
 .linkz:hover {
@@ -58,9 +61,9 @@ img {
     position: fixed;
     top: 0px;
     width: 100%;
-    z-index: 1;
+    z-index: 9999;
     max-height: 44px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .chung {
@@ -81,34 +84,40 @@ img {
     top: 100%;
     left: 0;
     width: 100vw;
-    z-index: 1;
+    z-index: 9999;
     animation: growDown 1s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
     transform-origin: top center;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 }
+
 @keyframes growDown {
     0% {
         transform: scaleY(0);
     }
+
     100% {
         transform: scaleY(1);
     }
-    
+
 }
+
 .h2chung {
     color: rgba(255, 255, 255, 0.8) !important;
     font-size: 12px;
     padding-bottom: 10px;
 }
+
 .hang1-cuoi {
-    font-size: 12px; 
-    color:#fff !important;
+    font-size: 12px;
+    color: #fff !important;
 }
+
 .h1chung a {
     color: #fff !important;
     font-size: 24px;
 }
+
 .hang1-padding {
     padding-top: 10px;
 }
@@ -118,12 +127,14 @@ img {
     font-size: 12px;
 
 }
+
 .header:hover {
     background-color: rgba(18, 18, 19, 1);
 }
-.chung:hover .subnav1{
+
+.chung:hover .subnav1 {
     background-color: rgba(18, 18, 19, 1);
-    display:block;
+    display: block;
 }
 
 .subnav11 {
@@ -134,6 +145,7 @@ img {
 .area {
     padding: 0 16px;
 }
+
 .under-header {
     margin-top: 44px;
     width: auto;
@@ -147,208 +159,320 @@ img {
     font-size: 14px;
 
 }
+
 .under-header a {
-color:#2997ff;
+    color: #2997ff;
 
 }
+
 .chung:hover .under-header {
     display: none;
 }
+
 .ipad {
     background-image: url(/img/ipad-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:auto;
+    width: auto;
     height: 692px;
     padding-top: 61px;
     border-bottom: 12px solid #ffff;
 }
-.layer1 h2, h3, p {
-    color:#fff;
+
+.layer1 h2,
+h3,
+p {
+    color: #fff;
 }
+
 .border-bottom {
-    font-size:48px;
+    font-size: 48px;
 }
+
 .ipad1 {
     background-image: url(/img/ipad-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:auto;
+    width: auto;
     height: 692px;
     padding-top: 61px;
     background-color: #fff;
     border-bottom: 12px solid #ffff;
 }
+
 .ipad1 h3 {
-    padding-top:20px;
-    color:#1d1d1f;
+    padding-top: 20px;
+    color: #1d1d1f;
 }
+
 .image-span {
     display: inline-block;
-    width: 170px; 
+    width: 170px;
     height: 39px;
     background-image: url('/img/ipad-2_1.png');
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
 }
+
 .iphone {
     background-image: url(/img/iphone15.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:auto;
+    width: auto;
     height: 692px;
     padding-top: 61px;
     border-bottom: 12px solid #ffff;
 }
-.layer-font-h2{
+
+.layer-font-h2 {
     font-size: 60px;
     font-weight: bold;
 }
+
 .iphone h3 {
     color: white;
-    padding-top:10px;
-    padding-bottom:15px;   
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
-.seach-bag {
-     color: rgba(255, 255, 255, 0.8) !important;
-}
-.seach-bag:hover {
-    color:#fff !important;
-}
+
 .layerbao {
     background-color: #fff;
 }
+
 .layer1-1 {
     background-image: url(/img/iphone15xanh.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:auto;
+    width: auto;
     height: 692px;
     padding-top: 61px;
     border-bottom: 12px solid #ffff;
 }
+
 .layer1-2 {
     background-image: url(/img/applewatch1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:auto;
+    width: auto;
     height: 692px;
     padding-top: 61px;
     border-bottom: 12px solid #ffff;
 }
+
 .layer1-3 {
     background-image: url(/img/macos1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:auto;
+    width: auto;
     height: 692px;
     padding-top: 61px;
     border-bottom: 12px solid #ffff;
 }
+
 .layer2-1 {
     background-image: url(/img/macos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:auto;
+    width: auto;
     height: 692px;
     padding-top: 61px;
     border-bottom: 12px solid #ffff;
 }
+
 .layer2-2 {
     background-image: url(/img/applewatch2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:auto;
+    width: auto;
     height: 692px;
     padding-top: 61px;
     border-bottom: 12px solid #ffff;
 }
+
 .layer2-3 {
     background-image: url(/img/ipod.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:auto;
+    width: auto;
     height: 692px;
     padding-top: 61px;
     border-bottom: 12px solid #ffff;
 }
+
 .headline {
-    color: rgb(245,245,247);
-    font-size: 40px;
-    font-weight: 600; 
-}
-.headline-trang {
-    color: rgb(29,29,31);
+    color: rgb(245, 245, 247);
     font-size: 40px;
     font-weight: 600;
 }
-.subline {
-    color: rgb(245,245,247);
-    font-size: 21px;
-    font-weight: 400;  
+
+.headline-trang {
+    color: rgb(29, 29, 31);
+    font-size: 40px;
+    font-weight: 600;
 }
-.subline-trang {
-    color: rgb(29,29,31);
+
+.subline {
+    color: rgb(245, 245, 247);
     font-size: 21px;
     font-weight: 400;
 }
-.but {
-background-color: #000;
+
+.subline-trang {
+    color: rgb(29, 29, 31);
+    font-size: 21px;
+    font-weight: 400;
 }
+
+.but {
+    background-color: #000;
+}
+
 .but-trang {
     background-color: #fbfbfd;
 }
+
 .but-trang1 {
     background-color: #f5f5f7;
 }
+
 .but:hover {
-    color: rgba(245,245,247,0.9) !important;}
+    color: rgba(245, 245, 247, 0.9) !important;
+}
+
 .but-trang:hover {
-    color: rgba(245,245,247,0.9) !important;
-}.but-trang1:hover {
-    color: rgba(245,245,247,0.9) !important;
+    color: rgba(245, 245, 247, 0.9) !important;
+}
+
+.but-trang1:hover {
+    color: rgba(245, 245, 247, 0.9) !important;
 
 }
+
 .image-span1 {
     display: inline-block;
-    width: 138px; 
+    width: 138px;
     height: 53px;
     background-image: url('/img/logowatch1.png');
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     margin-bottom: 20px;
 }
+
 .image-span2 {
     display: inline-block;
-    width: 138px; 
+    width: 138px;
     height: 53px;
     background-image: url('/img/logowatch2.png');
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     margin-bottom: 20px;
 }
+
 .wrap1z {
     height: 561px;
     width: auto;
     overflow: scroll;
-    display:flex;
+    display: flex;
 }
+
 .col-6 {
     padding-right: 0px;
 }
-.wrap1{
+
+.wrap1 {
+    height: 82vh;
+    width: 78.125vw;
+
+}
+
+.swiper {
+    width: auto;
     height: 523px;
-    width: 980px;
+    background-color: #fff !important;
+}
+
+.box {
+    width: auto;
+    height: 15px;
+    background-color: #fff;
+}
+
+.swiper-pagination-bullet {
+    background-color: #000000 !important;
 }
 
 
 
+/*viet sau */
+/* footer*/
+.footer {
+    background-color: #f5f5f7;
+    height: 678px;
+    width: 100vw;
+}
+
+.ft-center {
+    height: 658px;
+    width: 70vw;
+    margin: 0px auto;
+}
+
+.ft-1 {
+    height: 55px;
+    width: 67vw;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    padding: 17px 0px 11px;
+    border-bottom: 1px solid #cececf;
+}
+
+.ft-1 li {
+    list-style-type: none;
+    font-size: 12px;
+    color: #0000008f !important;
+    letter-spacing: -0.12px;
+    line-height: 12px;
+}
+.navft {
+    height: 358px;
+    width: 67vw;
+    display:flex;
+    padding: 20px 0px 0px;
+}
+.hding {
+    color:
+#000000e0;
+font-size:12px;
+font-weight:600;
+letter-spacing:-0.12px;
+line-height:16.0005px;
+margin:0px 20px 9.6px 0px;
+font-family:SF Pro Text;
+}
+.divn li {
+    list-style-type: none;
+}
+.divn li a {
+color:#000000b8 !important;
+display:inline;
+font-family:SF Pro Text;
+font-size:12px;
+letter-spacing:-0.12px;
+line-height:16.0005px;
+}
+.divn li a:hover {
+    text-decoration: underline;
+}
+.divn {
+    height: 338px;
+    width: 196px;
+}
