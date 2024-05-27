@@ -2,15 +2,26 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {
     font-size: 16px;
 }
+
 body {
     background-color: black;
     font-family: SF Pro Text;
+}
+
+.bulurr {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    z-index: 9998;
+
 }
 
 .linkz {
@@ -75,7 +86,7 @@ img {
     color: #414141;
 }
 
-.header .subnav1 {
+.subnav1 {
     display: none;
     padding-bottom: 40px;
     padding-top: 30px;
@@ -85,7 +96,7 @@ img {
     left: 0;
     width: 100vw;
     z-index: 9999;
-    animation: growDown 1s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+    animation: growDown 0.5s ease-in-out forwards;
     transform-origin: top center;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -148,13 +159,14 @@ img {
 
 .under-header {
     margin-top: 44px;
-    width: auto;
+    width: 100vw;
     height: 44px !important;
     background-color: #1d1d1f;
+    padding: 0;
 }
 
 .under-header p {
-    padding-top: 10px;
+    padding: 10px;
     color: #fff;
     font-size: 14px;
 
@@ -442,37 +454,178 @@ p {
     letter-spacing: -0.12px;
     line-height: 12px;
 }
+
 .navft {
     height: 358px;
     width: 67vw;
-    display:flex;
+    display: flex;
     padding: 20px 0px 0px;
 }
+
 .hding {
-    color:
-#000000e0;
-font-size:12px;
-font-weight:600;
-letter-spacing:-0.12px;
-line-height:16.0005px;
-margin:0px 20px 9.6px 0px;
-font-family:SF Pro Text;
+    color: #000000e0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    margin: 0px 20px 9.6px 0px;
+    font-family: SF Pro Text;
 }
+
 .divn li {
     list-style-type: none;
 }
+
 .divn li a {
-color:#000000b8 !important;
-display:inline;
-font-family:SF Pro Text;
-font-size:12px;
-letter-spacing:-0.12px;
-line-height:16.0005px;
+    color: #000000b8 !important;
+    display: inline;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
 }
+
 .divn li a:hover {
     text-decoration: underline;
 }
+
 .divn {
     height: 338px;
     width: 196px;
+}
+
+.ft-2 {
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    padding: 37px 0px 11px;
+}
+
+.single-line {
+    color: #0000008f !important;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.single-line a {
+    white-space: nowrap;
+    text-decoration: underline;
+    color: #06c;
+    display: inline-block;
+}
+
+.single-line a span {
+    color: #0000008f !important;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.divn1 {
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    margin: 0px 0px 16px;
+    padding: 0px 0px 19px;
+    font-family: SF Pro Text;
+    border-bottom: 1px solid #cececf;
+}
+
+.single-line ul li {
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    margin: 5px 30px 0px 0px;
+}
+
+.item-1 {
+    color: #000000b8;
+    display: inline;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    padding: 0px 9px 0px 0px;
+}
+
+.item-1:hover {
+    text-decoration: underline;
+}
+
+.inline-list {
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin: 0;
+    display: flex;
+}
+
+.inline-list li {
+    margin-right: 5px;
+}
+
+.inline-list li:not(:last-child)::after {
+    content: "|";
+    margin-left: 0px;
+}
+
+.item-2 {
+    color: #000000b8;
+    display: inline;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    position: relative;
+}
+
+.item-2:hover {
+    text-decoration: underline;
+}
+
+.divn2 {
+    position: relative;
+}
+
+.item-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.divn3 {
+    height: 73px;
+    width: 70vw;
+    position: relative;
+}
+.divn3 ul{
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    margin: 5px 30px 0px 0px;
+    padding-left:0;
+    padding-top: 15px;
+    color: #0000008f;
+}
+.divn3 span {
+    font-size: 12px;
+    color: #0000008f !important;
+    letter-spacing: -0.12px;
+    position: absolute;
+    top: 0;
+    right: 150px;
+}
+.divn4 {
+    width:70vw;
+    height:75px;
+    background-color: #f5f5f7 !important;
+}
+.divn4 img {
+    color:
+#fff !important;
+display:inline;
+font-size:12px;
+letter-spacing:-0.12px;
+line-height:16.0005px;
+width: 120px;
+height:45px;
 }
