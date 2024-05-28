@@ -3,9 +3,10 @@
 }
 .gioithieucuahang {
     font-size: 40px;
-    width: 60%;
+    width: 100%;
     font-weight: 1000;
     padding: 50px ;
+    justify-content: space-between;
 }
 .thumuc1 {
     font-size: 25px;
@@ -23,7 +24,7 @@
 }
 .ten-sp {
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
     padding-top: 10px;
 }
 * {
@@ -163,4 +164,28 @@ img {
     color: #000000;
     font-size: 17px;
     font-weight: 1;
+}
+.cuahang{
+    display: flex;
+}
+.trogiup1{
+   position: relative;
+   right:0cap;
+   display: flex;
+}
+.trogiup1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.trogiup{
+    font-size: 15px;
+    height: 10px;
+    margin-top: 10px;
+}
+.cuahang1{
+    width: 700px;
+}
+.trogiup2{
+    padding-left: 200px;
 }
