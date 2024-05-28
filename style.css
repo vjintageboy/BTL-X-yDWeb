@@ -201,7 +201,10 @@ p {
 .border-bottom {
     font-size: 48px;
 }
-
+.ipad-btn:hover {
+    background-color: #1d1d1f !important;
+    color:#fff !important;
+}
 .ipad1 {
     background-image: url(/img/ipad-2.jpg);
     background-repeat: no-repeat;
@@ -428,7 +431,7 @@ p {
 /* footer*/
 .footer {
     background-color: #f5f5f7;
-    height: 678px;
+    height: 720px;
     width: 100vw;
 }
 
