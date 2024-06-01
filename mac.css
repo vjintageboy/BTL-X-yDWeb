@@ -241,7 +241,7 @@ color:#2e8be2;
 .card-container {
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: auto;
+    overflow-x: scroll;
     padding: 10px;
     padding-bottom: 150px;
 }
@@ -301,9 +301,13 @@ color:#2e8be2;
     padding-bottom: 50px;
 }
 
-.btn-dark{
-    border-radius: 40px;
+.btn-light{
+    border-radius: 20px;
     margin-left: 50px;
+}
+.btn-light.active{
+    background-color: #000000;
+    color: #fff;
 }
 
 /*Tìm hiểu thêm về mac*/
@@ -349,3 +353,66 @@ color:#2e8be2;
     border-radius: 20px;
 }
 
+/* khám phá các dòng sp */
+
+.laptop{
+    margin: 100px 0px 0px 100px;
+    display: flex;
+    gap: 40px;
+}
+.macAir, .macPro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.macPro .color{
+    margin-bottom: 25px ;
+}
+.laptop > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.mac-color{
+    display: flex;
+    gap: 7px;
+    padding: 30px 0;
+}
+.color{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    border: 1px solid #b3abab;
+    display: inline-block;
+}
+.black{
+    background-color: #000000;
+}
+.ic{
+    background-color: antiquewhite;
+}
+.grey{
+    background-color: grey;
+}
+.white{
+    background-color: #fff;
+}
+.description {
+    text-align: center;
+    width: 90%;
+}
+h4, h5, p {
+    margin: 5px 0;
+}
+.price {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.buttons{
+    margin: 20px;
+    gap: 30px;
+}
+.buttons a{
+    margin-top: 9px;
+}
