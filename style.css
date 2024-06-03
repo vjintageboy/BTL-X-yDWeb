@@ -1,17 +1,24 @@
 * {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    font-family: SF Pro Text;
+    box-sizing: border-box ;
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'SF Pro Display', sans-serif !important;
+    max-width: 100% !important;
+}
+
+body {
+    margin: 0 !important;
+    overflow-x: hidden;
+    
 }
 
 html {
     font-size: 16px;
+    
 }
 
 body {
-    background-color: black;
-    font-family: SF Pro Text;
+    background-color: #000000;
 }
 
 .bulurr {
@@ -164,6 +171,7 @@ img {
     height: 44px !important;
     background-color: #1d1d1f;
     padding: 0;
+
 }
 
 .under-header p {
@@ -191,6 +199,7 @@ img {
     height: 692px;
     padding-top: 61px;
     border-bottom: 12px solid #ffff;
+    
 }
 
 .layer1 h2,
@@ -256,6 +265,8 @@ p {
 
 .layerbao {
     background-color: #fff;
+    padding:0;
+    margin: 0 12px;
 }
 
 .layer1-1 {
@@ -402,6 +413,8 @@ p {
 
 .col-6 {
     padding-right: 0px;
+    padding-left: 0px !important;
+
 }
 
 .wrap1 {
@@ -424,6 +437,10 @@ p {
 
 .swiper-pagination-bullet {
     background-color: #000000 !important;
+    gap: 20px;
+}
+.btnslide {
+    z-index: 99999;
 }
 
 
