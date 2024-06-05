@@ -190,6 +190,33 @@ img {
     display: none;
 }
 
+.apple-event {
+    width: auto;
+    height: 750px;
+    padding-top: 61px;
+    border-bottom: 12px solid #ffff;
+    
+}
+
+.video-apple {
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    top:100px;
+    left: 14%;
+    z-index:-1;
+}
+.image-span-video {
+    display: inline-block;
+    width: 200px;
+    height: 39px;
+    background-image: url(./img/apple-video.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
 .ipad {
     background-image: url(./img/ipad-1.jpg);
     background-repeat: no-repeat;

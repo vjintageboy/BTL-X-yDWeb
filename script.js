@@ -43,3 +43,6 @@ const startButton = document.querySelector('.start-button');
 startButton.addEventListener('click', function() {
     swiper.autoplay.start(); // Bắt đầu autoplay
 });
+// window.onload = function() {
+//     document.getElementsByClassName('video-apple').play();
+// }
