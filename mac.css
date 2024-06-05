@@ -470,3 +470,49 @@ h4, h5, p {
     padding-top: 20px;
     padding-left: 70px;
 }
+
+/*Nửa kia hoàn hảo*/
+.container, .header1{
+    background-color:#f7f7f7;
+    border-radius: 20px;
+}
+
+.header1{
+    justify-content: flex-start;
+}
+.information1{
+    display: flex;
+}
+.information1 p{
+    margin: 20px;
+}
+
+/*Phu kien cho mac*/
+.phukien{
+    display: flex;
+}
+.card-custom-1{
+    flex: 0 0 50%;
+    margin: 10px;
+    border-radius: 20px;
+}
+.card-title-custom{
+    margin-top: 50px;
+    text-align: center;
+}
+.card-title-custom h1{
+    font-weight: bold;
+}
+.card-body-custom{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.card-body-custom p{
+    margin-bottom: 20px;
+}
+.card-body-custom img{
+    justify-content: flex-end !important;
+}
+
+
