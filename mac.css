@@ -6,14 +6,14 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);   
+    background-color: rgb(255, 255, 255);
 }
 
 .linkz {
     font-size: 12px;
     color: rgba(9, 9, 9, 0.8) !important;
     fill: rgba(7, 7, 7, 0.8) !important;
-    padding-top:13px;
+    padding-top: 13px;
 }
 
 .linkz:hover {
@@ -77,14 +77,17 @@ img {
     font-size: 12px;
     padding-bottom: 10px;
 }
+
 .hang1-cuoi {
-    font-size: 12px; 
-    color:#000000 !important;
+    font-size: 12px;
+    color: #000000 !important;
 }
+
 .h1chung a {
     color: #000000 !important;
     font-size: 24px;
 }
+
 .hang1-padding {
     padding-top: 10px;
 }
@@ -95,7 +98,7 @@ img {
 
 }
 
-.chung:hover .subnav1{
+.chung:hover .subnav1 {
     display: block;
 }
 
@@ -120,19 +123,22 @@ img {
     font-size: 12px;
     text-align: center;
 }
+
 .under-header a {
-color:#2e8be2;
+    color: #2e8be2;
 }
+
 .chung:hover .under-header {
     display: none;
 }
 
 .seach-bag {
-     color: rgba(0, 0, 0, 0.8) !important;
-     padding-top:8px;
+    color: rgba(0, 0, 0, 0.8) !important;
+    padding-top: 8px;
 }
+
 .seach-bag:hover {
-    color:#000000 !important;
+    color: #000000 !important;
 }
 
 /*item mac*/
@@ -148,18 +154,18 @@ color:#2e8be2;
 }
 
 .chapter-items {
-    display: flex;          
+    display: flex;
     list-style: none;
     padding-bottom: 50px;
-    margin: 0;          
-    padding: 0;    
+    margin: 0;
+    padding: 0;
     flex-direction: row;
 }
 
 .chapter-item {
     display: flex;
-    align-items: center;     
-    margin: 0 20px;       
+    align-items: center;
+    margin: 0 20px;
 }
 
 .chapter-item:first-child {
@@ -167,19 +173,19 @@ color:#2e8be2;
 }
 
 .chapter-item:last-child {
-    margin-right: 0;         
+    margin-right: 0;
 }
 
 .chapter-icon {
     display: block;
     margin: 0 auto 6px;
     height: 60px;
-    width: auto;  
+    width: auto;
 }
 
 .chapter-label,
 .chapter-new {
-    color:#000000;
+    color: #000000;
     font-size: 12px;
     line-height: 1.3333;
     font-weight: 400;
@@ -187,7 +193,7 @@ color:#2e8be2;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: block;
     margin: 0;
-    text-align: center; 
+    text-align: center;
 }
 
 .chapter-new {
@@ -202,18 +208,18 @@ color:#2e8be2;
     font-size: 26px;
 }
 
-.text-banner1 .text-bn1{
+.text-banner1 .text-bn1 {
     margin-left: 100px;
     font-size: 70px;
     font-weight: 600;
 }
 
-.text-banner2{
+.text-banner2 {
     margin-right: 100px;
     font-weight: 600;
 }
 
-.vid-banner{
+.vid-banner {
     object-fit: cover;
     position: relative;
     padding-top: 80px;
@@ -222,16 +228,19 @@ color:#2e8be2;
     align-items: center;
     padding-bottom: 100px;
 }
-.vid-banner video{
+
+.vid-banner video {
     border-radius: 30px;
     max-width: 75%;
     max-height: 50%;
     box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
 }
-.text-banner3{
+
+.text-banner3 {
     padding-bottom: 50px;
 }
-.text-banner3 .text-bn4{
+
+.text-banner3 .text-bn4 {
     margin-left: 110px;
     font-size: 50px;
     font-weight: 600;
@@ -245,31 +254,39 @@ color:#2e8be2;
     padding: 10px;
     padding-bottom: 150px;
 }
-.card-header{
+
+.card-header {
     margin-top: 10px;
     border-bottom: 0;
 }
-.card-header img{
+
+.card-header img {
     width: auto;
     height: auto;
 }
-.card-custom{
+
+.card-custom {
     flex: 0 0 370px;
     margin: 10px;
     border-radius: 30px;
     overflow: hidden;
     transition: transform 0.3s;
 }
+
 .card-custom:hover {
     transform: scale(1.02);
 }
-.card-custom .card-img-top{
+
+.card-custom .card-img-top {
     border-radius: 30px;
 }
-.card-custom .card-text, .card-title{
+
+.card-custom .card-text,
+.card-title {
     font-weight: 600;
 }
-.card-icon-more{
+
+.card-icon-more {
     position: absolute;
     bottom: 20px;
     left: 85%;
@@ -282,54 +299,63 @@ color:#2e8be2;
     justify-content: center;
     background-color: #474747;
 }
-.card-icon-more .btnz{
-    color:rgb(255, 255, 255);
+
+.card-icon-more .btnz {
+    color: rgb(255, 255, 255);
 }
-.discovery{
+
+.discovery {
     background-color: rgb(243, 243, 243);
 }
 
-.text-banner5{
+.text-banner5 {
     padding-top: 30px;
 }
-.text-banner5 a{
+
+.text-banner5 a {
     margin-right: 50px;
     margin-top: 36px;
 }
-.text-banner5 .text-bn6{
+
+.text-banner5 .text-bn6 {
     margin-left: 50px;
     font-size: 50px;
     font-weight: 600;
 }
-.text-bn{
+
+.text-bn {
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
 }
 
-.btn-light{
+.btn-light {
     border-radius: 20px;
     margin-left: 50px;
 }
-.btn-light.active{
+
+.btn-light.active {
     background-color: #000000;
     color: #fff;
 }
 
 /*Tìm hiểu thêm về mac*/
-.modal-content{
+.modal-content {
     position: relative;
 }
-.modal-content p{
+
+.modal-content p {
     font-size: 30px;
     padding-left: 70px;
 }
-.modal-content h1{
+
+.modal-content h1 {
     padding-left: 70px;
     font-size: 60px;
     font-weight: bold;
 }
+
 .btn-close {
     font-size: 1.5rem;
     position: sticky;
@@ -343,81 +369,112 @@ color:#2e8be2;
     border-radius: 50%;
     background-color: #575353;
 }
-.modal-dialog-custom{
+
+.modal-dialog-custom {
     max-width: 90%;
     margin: 60px;
     border-radius: 30px;
 }
-.modal-body-custom{
+
+.modal-body-custom {
     border-radius: 40px;
     background-color: rgb(243, 243, 243);
     padding: 30px;
-    margin:30px 70px 30px 70px;
+    margin: 30px 70px 30px 70px;
     text-align: center;
 }
 
-.modal-body-custom img{
+.modal-body-custom img {
     border-radius: 20px;
 }
 
 /* khám phá các dòng sp */
 
-.laptop, .pc, .screen{
+.laptop,
+.pc,
+.screen {
     margin: 100px 0px 0px 100px;
     display: flex;
     gap: 25px;
-    overflow:hidden;
+    overflow: hidden;
 }
-.macAir, .macPro, .iMac, .macMini, .macStudio, .macPro{
+
+.macAir,
+.macPro,
+.iMac,
+.macMini,
+.macStudio,
+.macPro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;   
+    justify-content: flex-end;
 }
-.studioDisplay, .proDisplay{
+
+.studioDisplay,
+.proDisplay {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 }
-.macAir img, .macPro img, .iMac img, .macMini img, .macStudio img, .macPro img, .studioDisplay img, .proDisplay img{
+
+.macAir img,
+.macPro img,
+.iMac img,
+.macMini img,
+.macStudio img,
+.macPro img,
+.studioDisplay img,
+.proDisplay img {
     height: auto;
     width: auto;
 }
 
-.mac-color{
+.mac-color {
     display: flex;
     gap: 7px;
     padding: 30px 0;
 }
-.color{
-    width:15px;
-    height:15px;
+
+.color {
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     border: 1px solid #b3abab;
     display: inline-block;
 }
 
-.black{
+.black {
     background-color: #000000;
 }
-.ic{
+
+.ic {
     background-color: antiquewhite;
 }
-.grey{
+
+.grey {
     background-color: grey;
 }
-.white{
+
+.white {
     background-color: #fff;
 }
+
 .description {
     text-align: center;
     width: 90%;
 }
-h4, h5, p {
+
+h4,
+h5,
+p {
     margin: 5px 0;
 }
-.laptop p, .pc p, .screen p{
+
+.laptop p,
+.pc p,
+.screen p {
     font-weight: 200;
     color: #575353;
 }
@@ -426,93 +483,317 @@ h4, h5, p {
     margin-top: 10px;
     font-weight: bold;
 }
-.buttons{
+
+.buttons {
     margin: 20px;
     gap: 30px;
 }
-.buttons a{
+
+.buttons a {
     margin-top: 9px;
 }
 
-.line{
+.line {
     margin: 100px;
     width: 80%;
     height: 1px;
     background-color: #b3b3b3;
 }
-.infor1, .infor2, .infor3, .infor4, .infor5, .infor6{
+
+.infor1,
+.infor2,
+.infor3,
+.infor4,
+.infor5,
+.infor6 {
     margin-bottom: 70px;
 }
 
-.infor2 img{
+.infor2 img {
     height: auto;
     width: auto;
 }
 
 /* Tìm hiểu thêm các dịch vụ, tiện ích */
 
-.modal-content-custom p{
+.modal-content-custom p {
     font-size: 20px;
     padding-left: 70px;
 }
-.modal-content-custom h1{
+
+.modal-content-custom h1 {
     font-size: 50px;
     font-weight: bold;
 }
-.modal-dialog-custom1{
+
+.modal-dialog-custom1 {
     max-width: 50%;
 }
-.modal-body-custom1{
+
+.modal-body-custom1 {
     margin-right: 50px;
     text-align: left;
 }
-.modal-body-custom1 a{
+
+.modal-body-custom1 a {
     padding-top: 20px;
     padding-left: 70px;
 }
 
 /*Nửa kia hoàn hảo*/
-.container, .header1{
-    background-color:#f7f7f7;
+.container,
+.header1 {
+    background-color: #f7f7f7;
     border-radius: 20px;
 }
 
-.header1{
+.header1 {
     justify-content: flex-start;
 }
-.information1{
+
+.information1 {
     display: flex;
 }
-.information1 p{
+
+.information1 p {
     margin: 20px;
 }
 
 /*Phu kien cho mac*/
-.phukien{
+.phukien {
     display: flex;
 }
-.card-custom-1{
+
+.card-custom-1 {
     flex: 0 0 50%;
     margin: 10px;
     border-radius: 20px;
+    background-color: #fffbfb;
 }
-.card-title-custom{
+
+.card-title-custom {
     margin-top: 50px;
     text-align: center;
 }
-.card-title-custom h1{
+
+.card-title-custom h1 {
     font-weight: bold;
 }
-.card-body-custom{
+
+.card-body-custom {
     text-align: center;
     position: relative;
     overflow: hidden;
 }
-.card-body-custom p{
+
+.card-body-custom p {
     margin-bottom: 20px;
 }
-.card-body-custom img{
-    justify-content: flex-end !important;
+
+/* footer*/
+.footer {
+    background-color: #f5f5f7;
+    height: 720px;
+    width: 100vw;
 }
 
+.ft-center {
+    height: 658px;
+    width: 70vw;
+    margin: 0px auto;
+}
 
+.ft-1 {
+    height: 55px;
+    width: 67vw;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    padding: 17px 0px 11px;
+    border-bottom: 1px solid #cececf;
+}
+
+.ft-1 li {
+    list-style-type: none;
+    font-size: 12px;
+    color: #0000008f !important;
+    letter-spacing: -0.12px;
+    line-height: 12px;
+}
+
+.navft {
+    height: 358px;
+    width: 67vw;
+    display: flex;
+    padding: 20px 0px 0px;
+}
+
+.hding {
+    color: #000000e0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    margin: 0px 20px 9.6px 0px;
+    font-family: SF Pro Text;
+}
+
+.divn li {
+    list-style-type: none;
+}
+
+.divn li a {
+    color: #000000b8 !important;
+    display: inline;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+}
+
+.divn li a:hover {
+    text-decoration: underline;
+}
+
+.divn {
+    height: 338px;
+    width: 196px;
+}
+
+.ft-2 {
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    padding: 37px 0px 11px;
+}
+
+.single-line {
+    color: #0000008f !important;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.single-line a {
+    white-space: nowrap;
+    text-decoration: underline;
+    color: #06c;
+    display: inline-block;
+}
+
+.single-line a span {
+    color: #0000008f !important;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.divn1 {
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    margin: 0px 0px 16px;
+    padding: 0px 0px 19px;
+    font-family: SF Pro Text;
+    border-bottom: 1px solid #cececf;
+}
+
+.single-line ul li {
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    margin: 5px 30px 0px 0px;
+}
+
+.item-1 {
+    color: #000000b8;
+    display: inline;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    padding: 0px 9px 0px 0px;
+}
+
+.item-1:hover {
+    text-decoration: underline;
+}
+
+.inline-list {
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin: 0;
+    display: flex;
+}
+
+.inline-list li {
+    margin-right: 5px;
+}
+
+.inline-list li:not(:last-child)::after {
+    content: "|";
+    margin-left: 0px;
+}
+
+.item-2 {
+    color: #000000b8;
+    display: inline;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    position: relative;
+}
+
+.item-2:hover {
+    text-decoration: underline;
+}
+
+.divn2 {
+    position: relative;
+}
+
+.item-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.divn3 {
+    height: 73px;
+    width: 70vw;
+    position: relative;
+}
+
+.divn3 ul {
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    margin: 5px 30px 0px 0px;
+    padding-left: 0;
+    padding-top: 15px;
+    color: #0000008f;
+}
+
+.divn3 span {
+    font-size: 12px;
+    color: #0000008f !important;
+    letter-spacing: -0.12px;
+    position: absolute;
+    top: 0;
+    right: 150px;
+}
+
+.divn4 {
+    width: 70vw;
+    height: 75px;
+    background-color: #f5f5f7 !important;
+}
+
+.divn4 img {
+    color:#fff !important;
+    display: inline;
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.0005px;
+    width: 120px;
+    height: 45px;
+}
