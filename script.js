@@ -33,16 +33,18 @@ const swiper = new Swiper('.swiper', {
         }
     }
 });
-const stopButton = document.querySelector('.stop-button');
-stopButton.addEventListener('click', function() {
-    swiper.autoplay.stop(); // Dừng autoplay
-});
+// Lấy ra nút dừng và gán sự kiện click
+// const stopButton = document.querySelector('.stop-button');
+// stopButton.addEventListener('click', function() {
+//     swiper.autoplay.stop(); // Dừng autoplay
+// });
 
-// Lấy ra nút bắt đầu và gán sự kiện click
-const startButton = document.querySelector('.start-button');
-startButton.addEventListener('click', function() {
-    swiper.autoplay.start(); // Bắt đầu autoplay
-});
-// window.onload = function() {
-//     document.getElementsByClassName('video-apple').play();
-// }
+// // Lấy ra nút bắt đầu và gán sự kiện click
+// const startButton = document.querySelector('.start-button');
+// startButton.addEventListener('click', function() {
+//     swiper.autoplay.start(); // Bắt đầu autoplay
+// });
+
+window.onload = function() {
+    document.getElementsByClassName('video-apple').play();
+}

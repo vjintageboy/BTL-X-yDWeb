@@ -84,7 +84,6 @@ img {
     max-height: 44px;
     flex-wrap: nowrap;
 }
-
 .chung {
     padding: 10px 20px;
     opacity: 1.5;
@@ -98,12 +97,12 @@ img {
     display: none;
     padding-bottom: 40px;
     padding-top: 30px;
-    background-color: rgb(29, 29, 31);
     position: absolute;
     top: 100%;
     left: 0;
     width: 100vw;
     z-index: 9999;
+    background-color: rgb(29, 29, 31);
     animation: growDown 0.5s ease-in-out forwards;
     transform-origin: top center;
     backdrop-filter: blur(20px);
@@ -452,16 +451,22 @@ p {
 
 .swiper {
     width: auto;
-    height: 523px;
+    height: auto;
     background-color: #fff !important;
 }
 
 .box {
     width: auto;
-    height: 15px;
+    height: 40px;
     background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
 }
+.swiper-pagination {
+    width: 50% !important;
+    margin-left: 27%;
 
+}
 .swiper-pagination-bullet {
     background-color: #000000 !important;
     gap: 20px;
@@ -469,7 +474,33 @@ p {
 .btnslide {
     z-index: 99999;
 }
+.button {
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 0;
+    height: 8px;
+    border-color: transparent transparent transparent #202020;
+    transition: 100ms all ease;
+    cursor: pointer;
+    z-index: 101;
+    border-style: double;
+    border-width: 0 0 0 8px;
+    margin-top: 15px;
+    margin-right: 100px;
+}
 
+.button.paused {
+    border-style: solid;
+    border-width: 4px 0 4px 8px;
+}
+
+.button:hover {
+    border-color: transparent transparent transparent #404040;
+}
+
+  
+  
 
 
 /*viet sau */
