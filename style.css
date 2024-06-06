@@ -103,10 +103,11 @@ img {
     width: 100vw;
     z-index: 9999;
     background-color: rgb(29, 29, 31);
-    animation: growDown 0.5s ease-in-out forwards;
     transform-origin: top center;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+    transition: transform 0.5s ease-in-out; 
+    
 }
 
 @keyframes growDown {
@@ -117,8 +118,8 @@ img {
     100% {
         transform: scaleY(1);
     }
-
 }
+
 
 .h2chung {
     color: rgba(255, 255, 255, 0.8) !important;
@@ -153,11 +154,16 @@ img {
 .chung:hover .subnav1 {
     background-color: rgba(18, 18, 19, 1);
     display: block;
+    animation: growDown 0.5s ease-in-out forwards;
 }
 
 .subnav11 {
+    width: 1015px;
+    margin: 20px 0px 0px 9.5%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    line-height: 1.5;
+    gap: 50px;
 }
 
 .area {
@@ -451,7 +457,7 @@ p {
 
 .swiper {
     width: auto;
-    height: auto;
+    height: 650px;
     background-color: #fff !important;
 }
 
@@ -499,8 +505,20 @@ p {
     border-color: transparent transparent transparent #404040;
 }
 
+  .swiper-slide-next {
+    opacity: .4;
+  }
+  .swiper-slide-prev {
+    opacity: .4;
+  }
+
   
-  
+
+  p.inline-block {
+    display: inline-block;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px #000;
+  }
 
 
 /*viet sau */
