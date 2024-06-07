@@ -48,3 +48,4 @@ const swiper = new Swiper('.swiper', {
 window.onload = function() {
     document.getElementsByClassName('video-apple').play();
 }
+
