@@ -636,23 +636,6 @@ p {
     margin: 0px auto;
 }
 
-.ft-1 {
-    height: 55px;
-    width: 67vw;
-    letter-spacing: -0.12px;
-    line-height: 16.0005px;
-    padding: 17px 0px 11px;
-    border-bottom: 1px solid #cececf;
-}
-
-.ft-1 li {
-    list-style-type: none;
-    font-size: 12px;
-    color: #0000008f !important;
-    letter-spacing: -0.12px;
-    line-height: 12px;
-}
-
 .navft {
     height: 358px;
     width: 67vw;
@@ -667,7 +650,6 @@ p {
     letter-spacing: -0.12px;
     line-height: 16.0005px;
     margin: 0px 20px 9.6px 0px;
-    font-family: SF Pro Text;
 }
 
 .divn li {
@@ -677,7 +659,6 @@ p {
 .divn li a {
     color: #000000b8 !important;
     display: inline;
-    font-family: SF Pro Text;
     font-size: 12px;
     letter-spacing: -0.12px;
     line-height: 16.0005px;
@@ -724,7 +705,6 @@ p {
     line-height: 16.0005px;
     margin: 0px 0px 16px;
     padding: 0px 0px 19px;
-    font-family: SF Pro Text;
     border-bottom: 1px solid #cececf;
 }
 
@@ -738,7 +718,6 @@ p {
 .item-1 {
     color: #000000b8;
     display: inline;
-    font-family: SF Pro Text;
     font-size: 12px;
     letter-spacing: -0.12px;
     line-height: 16.0005px;
@@ -769,7 +748,6 @@ p {
 .item-2 {
     color: #000000b8;
     display: inline;
-    font-family: SF Pro Text;
     font-size: 12px;
     letter-spacing: -0.12px;
     line-height: 16.0005px;
