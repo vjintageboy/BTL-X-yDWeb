@@ -189,3 +189,37 @@ img {
 .trogiup2{
     padding-left: 200px;
 }
+.footer{
+    background-color: #fafafa;
+    height: 500px;
+    width: 100vw;
+    margin: 0px auto;
+    font-family: sans-serif !important;
+}
+.ft-1{
+    height: 400px;
+    width: 1250px;
+    display: flex;
+    padding-left: 230px;
+    justify-content:space-between ;
+}
+.ft-2{
+    width: 200px;
+}
+.ft-3{
+    color: black;
+    line-height: 20px;
+}
+.hding {
+    color: #000000e0;
+    font-size: 15px;
+    font-weight: 600;   
+    font-family: sans-serif !important;
+}
+.div1{
+    padding-bottom: 3px;
+}
+.div2{
+    padding-bottom: 3px;
+    padding-left: 230px;
+}
