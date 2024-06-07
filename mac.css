@@ -389,13 +389,18 @@ img {
 }
 
 /* khám phá các dòng sp */
-
+.pc {
+    display:flex;
+    border-bottom: 1px solid #b3b3b3;
+    margin: 20px 0px 100px 0px;
+}
 .laptop,
 .pc,
 .screen {
-    margin: 100px 100px 0px 100px;
+    margin: 100px 100px 100px 100px;
     gap: 25px;
     overflow: hidden;
+    padding-bottom: 100px;
 }
 .laptop {
     border-bottom: 1px solid #b3b3b3;
@@ -415,16 +420,32 @@ img {
 }
 .information {
     max-width: 25%;
+    text-align: center;
+}
+.information2 {
+    max-width: 25%;
+    text-align: center;
+    margin-top:50px;
+}
+.infor1z {
+    display: flex;
+}
+.infor1z img {
+    height: auto;
+    width: auto;
 }
 
 .studioDisplay,
 .proDisplay {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    border-bottom: 1px solid #b3b3b3;
+}.studioDisplay img {
+    margin-left: 55px;
 }
-
+.studioDisplay button {
+    margin-left: 55px;
+}
 .macAir img ,
 .macPro img,
 .iMac img,
