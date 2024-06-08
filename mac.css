@@ -31,7 +31,7 @@ a {
 
 ul {
     list-style: none;
-}
+} 
 
 img {
     width: 100%;
@@ -160,6 +160,7 @@ img {
     margin: 0;
     padding: 0;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .chapter-item {
@@ -409,6 +410,11 @@ img {
 .macAir {
     border-bottom: 1px solid #b3b3b3;
 }
+.macPro{
+    display:flex;
+    text-align: center;
+    gap:200px;
+}
 
 .iMac,
 .macMini,
@@ -433,6 +439,14 @@ img {
 .infor1z img {
     height: auto;
     width: auto;
+}
+.infor2z{
+    margin-right:30px;
+    max-width: 30%;
+    text-align:center;
+    margin-bottom:30px;
+    width:400px;
+    margin-top:30px;
 }
 
 .studioDisplay,
