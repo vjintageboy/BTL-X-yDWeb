@@ -9,8 +9,9 @@ const swiper = new Swiper(".swiper", {
   loopAdditionalSlides: 1,
   loopFillGroupWithBlank: true,
   autoHeight: true,
+  slideShadows: true,
   autoplay: {
-    delay: 2000,
+    delay: 3000,
     disableOnInteraction: false,
   },
   pagination: {
@@ -33,7 +34,6 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
-
 // Lấy ra nút dừng và gán sự kiện click
 const stopButton = document.querySelector(".stop-button");
 if (stopButton) {
@@ -98,3 +98,9 @@ for (let i = 0; i < hoverChung.length; i++) {
     }
   });
 }
+
+
+
+
+
+

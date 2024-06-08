@@ -511,12 +511,41 @@ p {
 .swiper-slide-prev {
   opacity: 0.4;
 }
+.swiper-slide-next  .anHien{
+    display: none;
+  }
+  .swiper-slide-prev  .anHien{
+    display: none;
+  }
+  .anHien {
+    display: block;
+  }
+  /* Áp dụng hoạt ảnh cho các slide của Swiper */
+  .swiper-slide-active {
+    animation: fadeIn 2s ease;
+  }
+
+  
+
+
+
+
+
 
 p.inline-block {
   display: inline-block;
   margin-top: 20px;
   text-shadow: 2px 2px 4px #000;
 }
+
+
+
+
+
+
+
+
+
 
 /*viet sau */
 /* footer*/
@@ -722,3 +751,4 @@ p.inline-block {
   width: 120px;
   height: 45px;
 }
+
