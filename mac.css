@@ -360,15 +360,29 @@ img {
 .btn-close {
     font-size: 1.5rem;
     position: sticky;
-    top: 0;
+    top: 20px;
     margin-top: 50px;
-    margin-left: 94%;
+    margin-left: 95.5%;
     z-index: 10;
     width: 30px;
     height: 30px;
     border: 1px solid #fff;
     border-radius: 50%;
     background-color: #575353;
+}
+.btn-close1 {
+    font-size: 1.5rem;
+    position: sticky;
+    top: 20px;
+    margin-top: 50px;
+    margin-left: 91%;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: #575353;
+    color: #fff;
 }
 
 .modal-dialog-custom {
@@ -411,7 +425,6 @@ img {
     border-bottom: 1px solid #b3b3b3;
 }
 .macPro{
-    display:flex;
     text-align: center;
     gap:200px;
 }
