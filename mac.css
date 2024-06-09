@@ -7,6 +7,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
+    overflow: auto;
 }
 
 .linkz {
@@ -58,18 +59,23 @@ img {
 .chung a {
     color: #040404;
 }
-
-.header .subnav1 {
+.chung:hover .under-header {
     display: none;
-    padding-bottom: 40px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100vw;
-    z-index: 1;
-    animation: growDown 3s ease-in-out forwards;
-    transform-origin: top center;
+  }
+.subnav1 {
+  display: none;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+  z-index: 9999;
+  background-color: rgb(255, 255, 255);
+  transform-origin: top center;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  /* transition: transform 0.5s ease-in-out; */
 }
 
 .h2chung {
@@ -418,7 +424,7 @@ img {
     padding-bottom: 100px;
 }
 .laptop {
-    border-bottom: 1px solid #b3b3b3;
+ 
 
 }
 .macAir {
@@ -428,7 +434,14 @@ img {
     text-align: center;
     gap:200px;
 }
-
+.macPro1{
+    display: flex;
+    text-align: center;
+    gap:200px;
+}
+.collapse  {
+    border-bottom: 1px solid #b3b3b3;
+}
 .iMac,
 .macMini,
 .macStudio {
@@ -453,6 +466,14 @@ img {
     height: auto;
     width: auto;
 }
+.infor1zz {
+    display: flex;
+    gap: 80px;
+}
+.infor1zz img {
+    height: auto;
+    width: auto;
+}
 .infor2z{
     margin-right:30px;
     max-width: 30%;
@@ -466,7 +487,6 @@ img {
 .proDisplay {
     align-items: center;
     justify-content: flex-start;
-    border-bottom: 1px solid #b3b3b3;
 }.studioDisplay img {
     margin-left: 55px;
 }
@@ -530,6 +550,7 @@ p {
 .screen p {
     font-weight: 200;
     color: #575353;
+
 }
 
 .price {
