@@ -29,9 +29,9 @@ body {
   z-index: 9998;
 }
 .phuWeb {
-  background-color: rgba(200, 200, 200, 0.7) !important;
-  backdrop-filter: blur(20px) !important;
-  -webkit-backdrop-filter: blur(20px);
+  background-color: rgba(200, 200, 200, 0.1) !important;
+  backdrop-filter: blur(40px) !important;
+  -webkit-backdrop-filter: blur(40px);
   position: fixed;
   top: 0;
   left: 0;
@@ -40,7 +40,7 @@ body {
   display: none;
   z-index: 9998;
   animation: fadeIn;
-  animation-duration: 0.4s;
+  animation-duration: 0.3s;
 }
 .linkz {
   font-size: 12px;
@@ -68,6 +68,7 @@ body {
 a {
   text-decoration: none;
   display: block;
+  color:#fff;
 }
 
 ul {
@@ -115,8 +116,55 @@ img {
   transform-origin: top center;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  transition: transform 0.5s ease-in-out;
+  /* transition: transform 0.5s ease-in-out; */
 }
+.subnav1z {
+    display: none;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    z-index: 9999;
+    background-color: rgb(29, 29, 31);
+    transform-origin: top center;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    /* transition: transform 0.5s ease-in-out; */
+  }
+  .subnav2z {
+    display: none;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    z-index: 9999;
+    background-color: rgb(29, 29, 31);
+    transform-origin: top center;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    /* transition: transform 0.5s ease-in-out; */
+  }
+  .form-control {
+    background-color: rgba(18, 18, 19, 1) !important;
+    border: 2px solid rgba(18, 18, 19, 1) !important;
+    width: 20vw !important;
+    caret-color: #fff !important;
+    color: #fff !important;
+  }
+  .form-control:focus {
+    border-color: white !important;
+    outline: none !important; 
+}
+  .input-group-text {
+    background-color: rgba(18, 18, 19, 1) !important;
+    border: 2px solid rgba(18, 18, 19, 1) !important;
+    color: #fff !important;
+  
+  }
 
 @keyframes growDown {
   0% {
@@ -130,8 +178,14 @@ img {
 .chung:hover .subnav1 {
   background-color: rgba(18, 18, 19, 1);
   display: block !important;
-  animation: growDown 0.5s ease-in-out forwards;
+  /* animation: growDown 0.5s ease-in-out forwards; */
 }
+/* .chung:hover .subnav1, .subnav1z {
+   display: none !important;
+  }
+  .chung:hover .subnav2z {
+    display: none !important;
+  } */
 
 .h2chung {
   color: rgba(255, 255, 255, 0.8) !important;
@@ -147,6 +201,11 @@ img {
 .h1chung a {
   color: #fff !important;
   font-size: 24px;
+}
+.h1chung1 {
+    color: #fff !important;
+    font-size: 12px;
+    
 }
 
 .hang1-padding {

@@ -62,7 +62,8 @@ let header = document.querySelector(".header");
 let hoverChung = document.getElementsByClassName("chung");
 
 let subNav = document.getElementsByClassName("subnav1");
-
+let linkZ = document.getElementsByClassName("linkz");
+let phuWeb = document.querySelector(".phuWeb");
 let firstHoverDone = false;
 
 for (let i = 0; i < hoverChung.length; i++) {
@@ -86,21 +87,97 @@ for (let i = 0; i < hoverChung.length; i++) {
 // Duyệt qua tất cả các phần tử có class 'chung' để thêm sự kiện 'mouseover' cho chúng
 for (let i = 0; i < hoverChung.length; i++) {
   hoverChung[i].addEventListener("mouseover", function () {
-    let phuWeb = document.querySelector(".phuWeb");
+    
     if (phuWeb) {
       phuWeb.style.display = "block";
     }
   });
   hoverChung[i].addEventListener("mouseout", function () {
-    let phuWeb = document.querySelector(".phuWeb");
     if (phuWeb) {
       phuWeb.style.display = "none";
     }
   });
 }
+let timKiem = document.getElementById("timkiem");
+
+timKiem.addEventListener("click", function (event) {
+  let input = document.querySelector(".subnav1z");
+  event.preventDefault(); 
+  
+  if (input.style.display === "block") {
+    input.style.display = "none";
+    phuWeb.style.display = "none";
+  } else {
+    input.style.display = "block";
+    input.style.animation = "growDown 0.5s ease-in-out forwards";
+    input.style.backgroundColor = "rgba(18, 18, 19, 1)";
+    phuWeb.style.display = "block";
+  }
+});
+
+let gioHang = document.getElementById("giohang");
+
+gioHang.addEventListener("click", function (event) {
+  let input1 = document.querySelector(".subnav2z");
+  event.preventDefault(); 
+  
+  if (input1.style.display === "block") {
+    input1.style.display = "none";
+    phuWeb.style.display = "none";
+  } else {
+    input1.style.display = "block";
+    input1.style.animation = "growDown 0.5s ease-in-out forwards";
+    input1.style.backgroundColor = "rgba(18, 18, 19, 1)";
+    phuWeb.style.display = "block";
+  }
+});
+timKiem.addEventListener("mouseover", function (event) {
+    let input1z = document.querySelector(".subnav2z");
+    event.preventDefault(); 
+    input1z.style.display = "none";
+    phuWeb.style.display = "none";
+});
+
+// hoverChung.forEach(function(item) {
+//     item.addEventListener("mouseover", function(event) {
+//         let input1z = document.querySelector(".subnav1z");
+//         event.preventDefault(); 
+//         input1z.style.display = "none";
+//     });
+// });
 
 
+gioHang.addEventListener("mouseover", function (event) {
+    let input1 = document.querySelector(".subnav1z");
+    event.preventDefault(); 
+    input1.style.display = "none";
+    phuWeb.style.display = "none";
+});
 
+timKiem.addEventListener("click", function (event) {
+    let input1 = document.querySelector(".subnav1z");
+    var focus = document.querySelector("#focus");
+    if(input1.style.display === 'block') {
+       focus.focus();
+    }
+  });
 
+  let congCu = document.querySelectorAll(".congcu");
 
+  
+  let input1z = document.querySelectorAll(".subnav2z");
+  input1z.forEach(function(item) {
+      item.addEventListener("mouseout", function() {
+          item.style.display = "none";
+          phuWeb.style.display = "none";
+      });
+  });
+  let input2z = document.querySelectorAll(".subnav1z");
+  input2z.forEach(function(item) {
+      item.addEventListener("mouseout", function() {
+          item.style.display = "none";
+          phuWeb.style.display = "none";
+      });
+  });
+  
 
