@@ -165,19 +165,19 @@ timKiem.addEventListener("click", function (event) {
   let congCu = document.querySelectorAll(".congcu");
 
   
-  let input1z = document.querySelectorAll(".subnav2z");
-  input1z.forEach(function(item) {
-      item.addEventListener("mouseout", function() {
-          item.style.display = "none";
-          phuWeb.style.display = "none";
-      });
-  });
-  let input2z = document.querySelectorAll(".subnav1z");
-  input2z.forEach(function(item) {
-      item.addEventListener("mouseout", function() {
-          item.style.display = "none";
-          phuWeb.style.display = "none";
-      });
-  });
+//   let input1z = document.querySelectorAll(".subnav2z");
+//   input1z.forEach(function(item) {
+//       item.addEventListener("mouseleave", function() {
+//           item.style.display = "none";
+//           phuWeb.style.display = "none";
+//       });
+//   });
+//   let input2z = document.querySelectorAll(".subnav1z");
+//   input2z.forEach(function(item) {
+//       item.addEventListener("mouseout", function() {
+//           item.style.display = "none";
+//           phuWeb.style.display = "none";
+//       });
+//   });
   
 
