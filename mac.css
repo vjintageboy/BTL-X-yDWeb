@@ -155,7 +155,6 @@ img {
     z-index: 1;
     padding: 24px 0;
     justify-content: center;
-    opacity: 1.5;
     display: flex;
 }
 
@@ -423,10 +422,7 @@ img {
     overflow: hidden;
     padding-bottom: 100px;
 }
-.laptop {
- 
 
-}
 .macAir {
     border-bottom: 1px solid #b3b3b3;
 }
