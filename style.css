@@ -236,6 +236,7 @@ img {
 
 .area {
   padding: 0 16px;
+  margin-left:40px;
 }
 
 .under-header {
@@ -256,7 +257,7 @@ img {
   color: #2997ff;
 }
 
-.chung:hover .under-header {
+.chung:hover + .under-header {
   display: none;
 }
 
