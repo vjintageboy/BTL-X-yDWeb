@@ -9,6 +9,35 @@
     z-index: 10;
     flex-wrap: wrap;
 }
+.header .subnav1 {
+    display: none;
+    padding-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    animation: growDown 3s ease-in-out forwards;
+    transform-origin: top center;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif, sf;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+ul {
+    list-style: none;
+}
+img {
+    width: 100%;
+}
 .linkz {
     font-size: 12px;
     color: rgba(9, 9, 9, 0.8) !important;
@@ -48,7 +77,7 @@
     width: 100%;
     font-weight: 1000;
     padding: 50px ;
-    justify-content: space-between;
+    
     padding-left: 150px;
 }
 .cuahang1{
@@ -110,37 +139,6 @@
 .card-custom1:hover {
     transform: scale(1.02);
 }
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif, sf;
-}
-
-a {
-    text-decoration: none;
-    display: block;
-}
-ul {
-    list-style: none;
-}
-img {
-    width: 100%;
-}
-
-.header .subnav1 {
-    display: none;
-    padding-bottom: 40px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100vw;
-    z-index: 1;
-    animation: growDown 3s ease-in-out forwards;
-    transform-origin: top center;
-}
-
 .mota-tensp {
     color: #ffffff;
     font-size: 12px;
